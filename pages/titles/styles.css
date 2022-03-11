@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(0, 0, 0);
+}
+
+/*HEADER*/
+
+.headerBox{
+    width: 100%;
+    height: 50px;
+    background-color: #fde100;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+
+/*BUTTONS*/
+
+.buttonsHeader{
+    background-color: #fde100;
+    border: #fde100;
+    width: 80px;
+    height: 50px;
+    cursor: pointer;
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    color: black;
+    margin-right: 5px;
+}
+
+.buttonsHeader:hover{
+    background-color: black;
+    color: #fde100;
+}
+
+/*MAIN*/
+
+.txtMain{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    text-decoration: underline;
+    color: aliceblue;
+    margin-top: 15px;
+}
+.photosContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.photosBox{
+    width: 60%;
+    height: 200px;
+    background-color: aqua;
+}
